@@ -39,7 +39,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
-       
+        print("ЙОУ")
         self.nameBeer1.text = "Old Boy"
         self.countBeer1.text = "\(BeerManager.shared.orderedBeerCount1)"
         
