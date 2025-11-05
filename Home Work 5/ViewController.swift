@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Home Work 5
 //
-//  Created by Dmitry on 2.11.24.
+//  Created by Dmitry and Artsiom on 2.11.24.
 //
 
 import UIKit
