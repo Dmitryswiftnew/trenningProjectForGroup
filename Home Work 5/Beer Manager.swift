@@ -23,7 +23,7 @@ class BeerManager {
     private init() {}
    
   
-    func sellBeer() -> String {
+    func letsSellBeer() -> String {
         let totalBeerCount = orderedBeerCount1 + orderedBeerCount2 + orderedBeerCount3
         
         var totalRevenue = Double(orderedBeerCount1) * beers[0].price + Double(orderedBeerCount2) * beers[1].price + Double(orderedBeerCount3) * beers[2].price

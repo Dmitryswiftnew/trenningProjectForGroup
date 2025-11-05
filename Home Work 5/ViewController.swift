@@ -107,7 +107,7 @@ class ViewController: UIViewController {
             
             
             @IBAction func sellAllBeer(_ sender: UIButton) {
-                let resultMessage = BeerManager.shared.sellBeer()
+                let resultMessage = BeerManager.shared.letsSellBeer()
                 
                 
                 updateBeerCounts()
