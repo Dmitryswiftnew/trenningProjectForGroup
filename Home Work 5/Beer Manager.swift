@@ -12,7 +12,7 @@ class BeerManager {
     var orderedBeerCount3 = 0
     
     var beers: [Beer] = [
-        Beer(name: "Old Boy", price: 1.0, balance: 100),
+        Beer(name: "Old Boy, Not a Girl", price: 1.0, balance: 100),
         Beer(name: "Star Wars", price: 2.0, balance: 100),
         Beer(name: "True Man", price: 3.0, balance: 100)
     ]
@@ -34,7 +34,7 @@ class BeerManager {
         orderedBeerCount2 = 0
         orderedBeerCount3 = 0
         
-        return "Вы продали \(totalBeerCount) пива на сумму \(totalRevenue) рублей."
+        return "Вы продали \(totalBeerCount) пива на сумму \(totalRevenue) USDT."
         
     }
     
