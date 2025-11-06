@@ -49,6 +49,7 @@ class ViewController: UIViewController {
         
         self.nameBeer3.text = "True Man"
         self.countBeer3.text = "\(BeerManager.shared.orderedBeerCount3)"
+        print("Здесь была Вика")
         
     }
 
