@@ -12,9 +12,9 @@ class BeerManager {
     var orderedBeerCount3 = 0
     
     var beers: [Beer] = [
-        Beer(name: "Old Boy, Not a Girl", price: 120.0, balance: 100),
-        Beer(name: "Star Wars", price: 140.0, balance: 100),
-        Beer(name: "True Man", price: 150.0, balance: 100)
+        Beer(name: "Old Boy, Not a Girl", price: 220.0, balance: 100),
+        Beer(name: "Star Wars", price: 240.0, balance: 100),
+        Beer(name: "True Man", price: 250.0, balance: 100)
     ]
     
     
