@@ -77,7 +77,7 @@ class BeerManager {
         orderedBeerCount2 = 0
         orderedBeerCount3 = 0
         
-        let revenueMessage = "Пока ничего не продали вообще.Плохо работаете!"
+        let revenueMessage = "Пока ничего не продали вообще. Очень плохо работаете!"
               
         
         // Сбрасываем общую выручку
