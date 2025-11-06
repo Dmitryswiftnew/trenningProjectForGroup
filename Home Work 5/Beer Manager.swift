@@ -93,7 +93,7 @@ class BeerManager {
     
     func endDay() -> String {
         
-        let revenueMessage = "Общая выручка за день: \(totalRevenue) рублей."
+        let revenueMessage = "Общая выручка за день: \(totalRevenue) руб."
             // После вывода сообщения, можно сбросить общую выручку для следующего дня
             totalRevenue = 0.0
             return revenueMessage
