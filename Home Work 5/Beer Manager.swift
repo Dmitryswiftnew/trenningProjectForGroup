@@ -12,9 +12,9 @@ class BeerManager {
     var orderedBeerCount3 = 0
     
     var beers: [Beer] = [
-        Beer(name: "Old Boy, Not a Girl", price: 2.0, balance: 100),
-        Beer(name: "Star Wars", price: 3.0, balance: 100),
-        Beer(name: "True Man", price: 4.0, balance: 100)
+        Beer(name: "Old Boy, Not a Girl", price: 20.0, balance: 100),
+        Beer(name: "Star Wars", price: 40.0, balance: 100),
+        Beer(name: "True Man", price: 50.0, balance: 100)
     ]
     
     
@@ -77,7 +77,7 @@ class BeerManager {
         orderedBeerCount2 = 0
         orderedBeerCount3 = 0
         
-        let revenueMessage = "Пока ничего не продали."
+        let revenueMessage = "Пока ничего не продали вообще.Плохо работаете!"
               
         
         // Сбрасываем общую выручку
