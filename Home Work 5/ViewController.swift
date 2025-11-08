@@ -41,7 +41,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         print("ЙОУ")
         print("Игорь Крутой")
-        self.nameBeer1.text = "Old Boy"
+        self.nameBeer1.text = "Old Girl"
         self.countBeer1.text = "\(BeerManager.shared.orderedBeerCount1)"
         
         self.nameBeer2.text = "Star Wars"
